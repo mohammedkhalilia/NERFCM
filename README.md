@@ -72,7 +72,7 @@ Examples (Mutation Dataset)
 	c = 4;
 	
 	%% Run NERFCM on the squared dissimilarities
-	out = inerfcm(D.^2,c,options);
+	out = nerfcm(D.^2,c,options);
 
 References
 ------------------------------------------
