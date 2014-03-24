@@ -52,9 +52,6 @@ The output is also a structure with the following fields:
 
  `blockerCount` - number of times the self-healing module was activated
 
-Examples (Mutation Dataset)
------------------------------------------
-
 ### Example: Clustering the Mutation Dataset
 
     %load the mutation dataset (for details on the Mutation dataset see ref. [2])
