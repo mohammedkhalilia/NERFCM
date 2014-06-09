@@ -22,7 +22,7 @@ options.initType         = 2;
 c = 4;
     
 %% Run NERFCM
-out = inerfcm(D.^2,c,options);
+out = nerfcm(D.^2,c,options);
 
 %save the partition matrix for this delta
 U = out.U;
